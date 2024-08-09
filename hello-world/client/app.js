@@ -4,7 +4,7 @@ async function fetchGreeting() {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ query: "{ greeting }" }),
+    body: JSON.stringify({ query: "query { greeting }" }),
   });
   const body = await response.json();
   console.log("body : ", body);
