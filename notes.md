@@ -7,3 +7,5 @@ In server.js
 4. The server.listen method is called to start the server.
 5. The server.listen method will return a Promise that resolves to an object with a url key.
 6. The url key contains the URL of the server.
+
+code-first vs schema-first in graphql
